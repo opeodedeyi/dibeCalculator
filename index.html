@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibe Royalty calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="https://dibehq.com/" class="blogo">
+            <img src="img/logo2.png" data-spai="1" alt="DIBE" data-spai-upd="200">
+        </a>
+    </div>
+
+    <div class="title">
+        <p>Music Royalty Calculator</p>
+    </div>
+
+    <div class="inputbar">
+        <input class="inputstream" id="stream" type="number" placeholder="e.g. 1,000,000" min="0"/>
+    </div>
+
+    <div class="results">
+        <div class="res-item">
+            <div class="svg">
+                <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 120 120"><defs><linearGradient id="a" x1="-392" x2="-272" y1="-764" y2="-764" gradientTransform="rotate(-90 276 -548)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd355a"/><stop offset="1" stop-color="#fd5163"/></linearGradient><radialGradient id="b" cx="-400.171" cy="-984.067" r="1.587" gradientTransform="matrix(0 31.8923 31.8923 0 31421.78 12852.762)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7470f9"/><stop offset="1" stop-color="#7a70fe" stop-opacity="0"/></radialGradient><radialGradient id="c" cx="-489.182" cy="-1019.984" r="1.281" gradientTransform="scale(-31.8923 31.8923) rotate(-74.462 426.955 -829.031)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4ca3f8"/><stop offset=".362" stop-color="#4ca4f7"/><stop offset="1" stop-color="#4aa2f9" stop-opacity="0"/></radialGradient><linearGradient id="d" x1="-418.42" x2="-418.034" y1="-1040.402" y2="-1041.278" gradientTransform="matrix(31.8923 0 0 -39.8681 13392.678 -41444.467)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6380"/><stop offset="1" stop-color="#f65e79" stop-opacity="0"/></linearGradient></defs><path fill="url(#a)" fill-rule="evenodd" d="M94,120H26A25.9482,25.9482,0,0,1,0,94V26A25.9482,25.9482,0,0,1,26,0H94a25.9482,25.9482,0,0,1,26,26V94A25.9482,25.9482,0,0,1,94,120Z"/><g data-name="Home-Screen-11&quot;"><path fill="#bb58bb" fill-rule="evenodd" d="M88,72.5V76a37.93334,37.93334,0,0,1-.6,6.7,8.5338,8.5338,0,0,1-3.6,5.6h-.1a12.35558,12.35558,0,0,1-6.9,2.5l-1.9.2A9.53981,9.53981,0,0,1,67,87.6a8.779,8.779,0,0,1-1.4-8.8v-.1a9.24834,9.24834,0,0,1,6.5-5.8l7.5-2a4.29583,4.29583,0,0,0,3.3-4.2V61.6h0V40.1a1.61246,1.61246,0,0,0-.6-1.3,1.73546,1.73546,0,0,0-1.4-.3L48.9,45a2.37562,2.37562,0,0,0-2,2.4V81.6h0v2.5a37.93323,37.93323,0,0,1-.6,6.7,8.53375,8.53375,0,0,1-3.6,5.6h-.1a12.35561,12.35561,0,0,1-6.9,2.5l-1.8.1A9.53981,9.53981,0,0,1,26,95.6a8.779,8.779,0,0,1-1.4-8.8v-.1a9.24834,9.24834,0,0,1,6.5-5.8l7.5-2a4.29583,4.29583,0,0,0,3.3-4.2V69.6h0V29.9a3.71845,3.71845,0,0,1,3-3.6L85,19a3.14378,3.14378,0,0,1,2.1.5,2.46275,2.46275,0,0,1,.9,1.9V72.5Z"/><path fill="url(#b)" fill-rule="evenodd" d="M88,72.5V76a37.93334,37.93334,0,0,1-.6,6.7,8.5338,8.5338,0,0,1-3.6,5.6h-.1a12.35558,12.35558,0,0,1-6.9,2.5l-1.9.2A9.53981,9.53981,0,0,1,67,87.6a8.779,8.779,0,0,1-1.4-8.8v-.1a9.24834,9.24834,0,0,1,6.5-5.8l7.5-2a4.29583,4.29583,0,0,0,3.3-4.2V61.6h0V40.1a1.61246,1.61246,0,0,0-.6-1.3,1.73546,1.73546,0,0,0-1.4-.3L48.9,45a2.37562,2.37562,0,0,0-2,2.4V81.6h0v2.5a37.93323,37.93323,0,0,1-.6,6.7,8.53375,8.53375,0,0,1-3.6,5.6h-.1a12.35561,12.35561,0,0,1-6.9,2.5l-1.8.1A9.53981,9.53981,0,0,1,26,95.6a8.779,8.779,0,0,1-1.4-8.8v-.1a9.24834,9.24834,0,0,1,6.5-5.8l7.5-2a4.29583,4.29583,0,0,0,3.3-4.2V69.6h0V29.9a3.71845,3.71845,0,0,1,3-3.6L85,19a3.14378,3.14378,0,0,1,2.1.5,2.46275,2.46275,0,0,1,.9,1.9V72.5Z" data-name="path-6"/><path fill="url(#c)" fill-rule="evenodd" d="M88,72.5V76a37.93334,37.93334,0,0,1-.6,6.7,8.5338,8.5338,0,0,1-3.6,5.6h-.1a12.35558,12.35558,0,0,1-6.9,2.5l-1.9.2A9.53981,9.53981,0,0,1,67,87.6a8.779,8.779,0,0,1-1.4-8.8v-.1a9.24834,9.24834,0,0,1,6.5-5.8l7.5-2a4.29583,4.29583,0,0,0,3.3-4.2V61.6h0V40.1a1.61246,1.61246,0,0,0-.6-1.3,1.73546,1.73546,0,0,0-1.4-.3L48.9,45a2.37562,2.37562,0,0,0-2,2.4V81.6h0v2.5a37.93323,37.93323,0,0,1-.6,6.7,8.53375,8.53375,0,0,1-3.6,5.6h-.1a12.35561,12.35561,0,0,1-6.9,2.5l-1.8.1A9.53981,9.53981,0,0,1,26,95.6a8.779,8.779,0,0,1-1.4-8.8v-.1a9.24834,9.24834,0,0,1,6.5-5.8l7.5-2a4.29583,4.29583,0,0,0,3.3-4.2V69.6h0V29.9a3.71845,3.71845,0,0,1,3-3.6L85,19a3.14378,3.14378,0,0,1,2.1.5,2.46275,2.46275,0,0,1,.9,1.9V72.5Z" data-name="path-6"/><path fill="url(#d)" fill-rule="evenodd" d="M88,72.5V76a37.93334,37.93334,0,0,1-.6,6.7,8.5338,8.5338,0,0,1-3.6,5.6h-.1a12.35558,12.35558,0,0,1-6.9,2.5l-1.9.2A9.53981,9.53981,0,0,1,67,87.6a8.779,8.779,0,0,1-1.4-8.8v-.1a9.24834,9.24834,0,0,1,6.5-5.8l7.5-2a4.29583,4.29583,0,0,0,3.3-4.2V61.6h0V40.1a1.61246,1.61246,0,0,0-.6-1.3,1.73546,1.73546,0,0,0-1.4-.3L48.9,45a2.37562,2.37562,0,0,0-2,2.4V81.6h0v2.5a37.93323,37.93323,0,0,1-.6,6.7,8.53375,8.53375,0,0,1-3.6,5.6h-.1a12.35561,12.35561,0,0,1-6.9,2.5l-1.8.1A9.53981,9.53981,0,0,1,26,95.6a8.779,8.779,0,0,1-1.4-8.8v-.1a9.24834,9.24834,0,0,1,6.5-5.8l7.5-2a4.29583,4.29583,0,0,0,3.3-4.2V69.6h0V29.9a3.71845,3.71845,0,0,1,3-3.6L85,19a3.14378,3.14378,0,0,1,2.1.5,2.46275,2.46275,0,0,1,.9,1.9V72.5Z" data-name="path-6"/><path fill="#fff" fill-rule="evenodd" d="M88,72.5V76a37.93334,37.93334,0,0,1-.6,6.7,8.5338,8.5338,0,0,1-3.6,5.6h-.1a12.35558,12.35558,0,0,1-6.9,2.5l-1.9.2A9.53981,9.53981,0,0,1,67,87.6a8.779,8.779,0,0,1-1.4-8.8v-.1a9.24834,9.24834,0,0,1,6.5-5.8l7.5-2a4.29583,4.29583,0,0,0,3.3-4.2V61.6h0V40.1a1.61246,1.61246,0,0,0-.6-1.3,1.73546,1.73546,0,0,0-1.4-.3L48.9,45a2.37562,2.37562,0,0,0-2,2.4V81.6h0v2.5a37.93323,37.93323,0,0,1-.6,6.7,8.53375,8.53375,0,0,1-3.6,5.6h-.1a12.35561,12.35561,0,0,1-6.9,2.5l-1.8.1A9.53981,9.53981,0,0,1,26,95.6a8.779,8.779,0,0,1-1.4-8.8v-.1a9.24834,9.24834,0,0,1,6.5-5.8l7.5-2a4.29583,4.29583,0,0,0,3.3-4.2V69.6h0V29.9a3.71845,3.71845,0,0,1,3-3.6L85,19a3.14378,3.14378,0,0,1,2.1.5,2.46275,2.46275,0,0,1,.9,1.9V72.5Z" data-name="path-6"/></g></svg>
+                <p class="svg-text">Apple Music</p>
+            </div>
+            <div class="score apple1"><p>$1,000,000</p></div>
+            <div class="score apple2"><p>$1,000,000</p></div>
+            <div class="score apple3"><p>$1,000,000</p></div>
+        </div>
+
+        <div class="res-item">
+            <div class="svg">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-label="Spotify" viewBox="0 0 512 512"><rect width="512" height="512" fill="#3bd75f" rx="15%"/><circle cx="256" cy="256" r="192" fill="#fff"/><g fill="none" stroke="#3bd75f" stroke-linecap="round"><path stroke-width="36" d="m141 195c75-20 164-15 238 24"/><path stroke-width="31" d="m152 257c61-17 144-13 203 24"/><path stroke-width="24" d="m156 315c54-12 116-17 178 20"/></g></svg>
+                <p class="svg-text">Spotify</p>
+            </div>
+            <div class="score spotify1"><p>$1,000,000</p></div>
+            <div class="score spotify2"><p>$1,000,000</p></div>
+            <div class="score spotify3"><p>$1,000,000</p></div>
+        </div>
+
+        <div class="res-item">
+            <div class="svg">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 16 16" xml:space="preserve"><g fill-rule="evenodd" clip-rule="evenodd"><path d="M15.32 4.06c-.434-.772-.905-.914-1.864-.968C12.498 3.027 10.089 3 8.002 3c-2.091 0-4.501.027-5.458.091-.957.055-1.429.196-1.867.969C.23 4.831 0 6.159 0 8.497v.008c0 2.328.23 3.666.677 4.429.438.772.909.912 1.866.977.958.056 3.368.089 5.459.089 2.087 0 4.496-.033 5.455-.088.959-.065 1.43-.205 1.864-.977.451-.763.679-2.101.679-4.429v-.005-.003c0-2.339-.228-3.667-.68-4.438z" fill="#F44336"/><path fill="#FAFAFA" d="M6 11.5v-6l5 3z"/></g><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description about="https://iconscout.com/legal#licenses" dc:title="youtube,social,color,e" dc:description="youtube,social,color,e" dc:publisher="Iconscout" dc:date="2018-02-17" dc:format="image/svg+xml" dc:language="en"><dc:creator><rdf:Bag><rdf:li>Pixel Icons</rdf:li></rdf:Bag></dc:creator></rdf:Description></rdf:RDF></metadata></svg>
+                <p class="svg-text">Youtube Music</p>
+            </div>
+            <div class="score youtube1"><p>$1,000,000</p></div>
+            <div class="score youtube2"><p>$1,000,000</p></div>
+            <div class="score youtube3"><p>$1,000,000</p></div>
+        </div>
+
+        <div class="res-item">
+            <div class="svg">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-label="SoundCloud" viewBox="0 0 512 512"><rect width="512" height="512" fill="#f50" rx="15%"/><path fill="#fff" d="m59 270-3 22 3 22c0 2 3 2 3 0l3-22-3-22c0-3-3-3-3 0zm18-14c0-3-3-3-3 0l-5 36 4 35c0 3 4 3 4 0l4-35zm59-30-3 66 2 40c0 8 7 8 7 0l4-40-4-66c0-5-6-5-6 0zm-31 22-4 44 3 40c0 6 5 6 5 0l4-40-4-44c0-3-4-3-4 0zm70 84 3-40-3-88c0-6-7-6-7 0l-3 88 2 40c0 8 8 8 8 0zm68 0 2-40-2-102c0-7-10-7-10 0l-2 102 2 40c0 8 10 8 10 0zm-34 0 3-40-3-89c0-6-9-6-9 0l-2 89 2 40c0 8 9 8 9 0zm-83 0 3-40-3-41c0-3-6-3-6 0l-3 41 3 40c0 7 6 7 6 0zm-33 0 4-40-4-43c0-3-4-3-4 0l-4 43 4 40c0 4 4 4 4 0zm124-125-2 85 1 40c0 8 10 8 10 0l2-40-2-85c0-7-9-7-9 0zm-58 125 3-40-3-81c0-6-7-6-7 0l-3 81 2 40c0 8 8 8 8 0zm33 0 3-40-3-91c0-6-8-6-8 0l-3 91 3 40c0 8 8 8 8 0zm196-89c-5-57-64-94-118-73-4 2-5 3-5 6v156c0 3 2 6 5 6h137c27 0 49-22 49-49 0-37-35-57-68-46zm-138-62-3 111 3 40c0 8 10 8 10 0l3-40-3-111c0-7-10-7-10 0z"/></svg>
+                <p class="svg-text">Soundcloud</p>
+            </div>
+            <div class="score soundcloud1"><p>$1,000,000</p></div>
+            <div class="score soundcloud2"><p>$1,000,000</p></div>
+            <div class="score soundcloud3"><p>$1,000,000</p></div>
+        </div>
+
+        <div class="res-item">
+            <div class="svg">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-label="Deezer" viewBox="0 0 512 512"><rect width="512" height="512" fill="#111" rx="15%"/><defs><linearGradient id="a" x2="1"><stop offset="0" stop-color="#fa0"/><stop offset=".3" stop-color="#c26"/><stop offset=".7" stop-color="#33a"/><stop offset="1" stop-color="#18a"/></linearGradient><linearGradient id="b" x2="1" y2="1"><stop offset="0" stop-color="#0a7"/><stop offset="1" stop-color="#289"/></linearGradient><linearGradient id="c" x2="1" y2="1"><stop offset="0" stop-color="#fc0"/><stop offset="1" stop-color="#e72"/></linearGradient></defs><path fill="url(#a)" d="M163 267h285v114H163z"/><path fill="url(#b)" d="M448 135h-83v114h83z"/><path fill="#e90" d="M145 333H62v48h83z"/><path fill="url(#c)" d="M247 201h-83v48h83z"/><path stroke="#111" stroke-dasharray="18 83" stroke-width="130" d="M247 323h120"/><path stroke="#111" stroke-dasharray="18 114" stroke-width="300" d="M306 333V99"/></svg>
+                <p class="svg-text">Deezer</p>
+            </div>
+            <div class="score deezer1"><p>$1,000,000</p></div>
+            <div class="score deezer2"><p>$1,000,000</p></div>
+            <div class="score deezer3"><p>$1,000,000</p></div>
+        </div>
+
+        <div class="res-item">
+            <div class="svg">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" version="1.1"><g id="surface1" fill="#1976D2"><path d="M25.57 16.148a8.02 8.02 0 0 0-9.422 9.422c.606 3.145 3.141 5.68 6.286 6.282a8.02 8.02 0 0 0 9.418-9.418c-.602-3.145-3.137-5.68-6.282-6.286zM24 27a3 3 0 1 1 .002-6.002A3 3 0 0 1 24 27z"/><path d="M38.008 9.734L31.8 14.398l2.398 3.2 3.149-2.36C39.012 17.758 40 20.758 40 24c0 8.836-7.164 16-16 16S8 32.836 8 24 15.164 8 24 8c2.621 0 5.086.64 7.27 1.758l3.496-2.598A19.916 19.916 0 0 0 24 4C12.953 4 4 12.953 4 24s8.953 20 20 20 20-8.953 20-20c0-5.59-2.297-10.637-5.992-14.266z"/></g><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description about="https://iconscout.com/legal#licenses" dc:title="microsoft,groove" dc:description="microsoft,groove" dc:publisher="Iconscout" dc:date="2017-12-15" dc:format="image/svg+xml" dc:language="en"><dc:creator><rdf:Bag><rdf:li>Icons8</rdf:li></rdf:Bag></dc:creator></rdf:Description></rdf:RDF></metadata></svg>
+                <p class="svg-text">Groove</p>
+            </div>
+            <div class="score groove1"><p>$1,000,000</p></div>
+            <div class="score groove2"><p>$1,000,000</p></div>
+            <div class="score groove3"><p>$1,000,000</p></div>
+        </div>
+
+        <div class="res-item">
+            <div class="svg">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 277.2 57" style="enable-background:new 0 0 277.2 57;" xml:space="preserve"><style type="text/css">.st0{clip-path:url(#SVGID_2_);fill:#00A0EE;}</style><g><defs><rect id="SVGID_1_" width="277.2" height="57"/></defs><clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_" style="overflow:visible;"/></clipPath><path class="st0" d="M186.4,17.4c6.1,0,11.1,5,11.1,11.1c0,6.1-5,11.1-11.1,11.1c-6.1,0-11.1-5-11.1-11.1   C175.3,22.3,180.3,17.4,186.4,17.4 M186.4,10c-10.2,0-18.5,8.3-18.5,18.5c0,10.2,8.3,18.5,18.5,18.5c10.2,0,18.5-8.3,18.5-18.5   C204.9,18.2,196.6,10,186.4,10"/><path class="st0" d="M71.6,11.1v3c-3.2-2.6-7.3-4.2-11.7-4.2c-10.2,0-18.5,8.3-18.5,18.5c0,10.2,8.3,18.5,18.5,18.5   c4.4,0,8.5-1.6,11.7-4.2v3h6.8V11.1H71.6z M60.3,40c-6.4,0-11.5-5.2-11.5-11.5c0-6.4,5.2-11.5,11.5-11.5c6.4,0,11.5,5.2,11.5,11.5   C71.8,34.8,66.6,40,60.3,40"/><path class="st0" d="M260.1,11.1v3c-3.2-2.6-7.3-4.2-11.7-4.2c-10.2,0-18.5,8.3-18.5,18.5c0,10.2,8.3,18.5,18.5,18.5   c4.4,0,8.5-1.6,11.7-4.2v3h6.8V11.1H260.1z M248.9,40c-6.4,0-11.5-5.2-11.5-11.5c0-6.4,5.2-11.5,11.5-11.5   c6.4,0,11.5,5.2,11.5,11.5C260.4,34.8,255.2,40,248.9,40"/><path class="st0" d="M217.1,13.3c-4,2.5-7.4,7-7.4,15v17.5h7.4V28.3c0-11.5,11.9-10.9,11.9-10.9V10v0   C228.9,10,222.5,9.8,217.1,13.3"/><path class="st0" d="M113.6,13.7c-3.1-2.3-6.9-3.7-11.1-3.7c-4.2,0-8,1.4-11.1,3.7c-4.5,3.4-7.4,8.8-7.4,14.8v17.4h7.4v-2.6V28.5   c0-6.1,5-11.1,11.1-11.1c6.1,0,11.11,5,11.1,11.1v14.8v2.6h7.4V28.5C121,22.4,118.1,17,113.6,13.7"/><path class="st0" d="M159.5,0c-1.9,0-3.4,1.5-3.4,3.4v10.7c-3.2-2.6-7.3-4.2-11.7-4.2c-10.2,0-18.5,8.3-18.5,18.5   c0,10.2,8.3,18.5,18.5,18.5c4.4,0,8.5-1.6,11.7-4.2v3h6.8V3.4V0H159.5z M144.8,40c-6.4,0-11.5-5.2-11.5-11.5   c0-6.4,5.2-11.5,11.5-11.5c6.4,0,11.5,5.2,11.5,11.5C156.4,34.8,151.2,40,144.8,40"/><path class="st0" d="M18.5,10c-4.4,0-8.5,1.6-11.7,4.2v-3H0v42.4V57h3.4c1.9,0,3.4-1.5,3.4-3.4V42.8C10,45.4,14.1,47,18.5,47   C28.8,47,37,38.7,37,28.5C37,18.2,28.8,10,18.5,10 M18.1,40c-6.4,0-11.5-5.2-11.5-11.5c0-6.4,5.2-11.5,11.5-11.5   s11.5,5.2,11.5,11.5C29.6,34.8,24.5,40,18.1,40"/><path class="st0" d="M273.8,11.1c-1.9,0-3.4-1.5-3.4-3.4c0-1.9,1.5-3.4,3.4-3.4c1.9,0,3.4,1.5,3.4,3.4   C277.2,9.6,275.7,11.1,273.8,11.1 M273.8,4.7c-1.7,0-3,1.3-3,3c0,1.6,1.3,3,3,3c1.7,0,3-1.4,3-3C276.8,6,275.4,4.7,273.8,4.7    M274.7,9.7l-1-1.5H273v1.5h-0.5V5.8h1.6c0.7,0,1.2,0.5,1.2,1.2c0,0.9-0.8,1.2-1,1.2l1,1.6H274.7z M274.1,6.2H273v1.5h1.1   c0.3,0,0.7-0.3,0.7-0.7C274.8,6.5,274.4,6.2,274.1,6.2"/></g></svg>
+            </div>
+            <div class="score pandora1"><p>$1,000,000</p></div>
+            <div class="score pandora2"><p>$1,000,000</p></div>
+            <div class="score pandora3"><p>$1,000,000</p></div>
+        </div>
+
+        <div class="res-item">
+            <div class="svg">
+                <img src="img/tidal.png" data-spai="1" alt="DIBE" data-spai-upd="200">
+                <p class="svg-text">Tidal</p>
+            </div>
+            <div class="score tidal1"><p>$1,000,000</p></div>
+            <div class="score tidal2"><p>$1,000,000</p></div>
+            <div class="score tidal3"><p>$1,000,000</p></div>
+        </div>
+
+        <div class="res-item">
+            <div class="svg">
+                <img src="img/amazon.png" data-spai="1" alt="DIBE" data-spai-upd="200">
+                <p class="svg-text">Amazon Music</p>
+            </div>
+            <div class="score amazon1"><p>$1,000,000</p></div>
+            <div class="score amazon2"><p>$1,000,000</p></div>
+            <div class="score amazon3"><p>$1,000,000</p></div>
+        </div>
+
+        <div class="no-item">
+            <p class="no-item-text">Find out how much you could earn from different streaming platforms depending on the number of streams you have.</p>
+            <p class="no-item-text">Put in a number and enter to search</p>
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
