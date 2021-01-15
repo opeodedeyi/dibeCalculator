@@ -152,6 +152,10 @@ body {
     height: 1.6rem;
 }
 
+.love {
+    display: flex;
+}
+
 /* Small screens */
 @media only screen and (max-width: 700px) {
     .svg svg, 
